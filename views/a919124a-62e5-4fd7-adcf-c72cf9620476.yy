@@ -1,0 +1,33 @@
+{
+    "id": "a919124a-62e5-4fd7-adcf-c72cf9620476",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "a919124a-62e5-4fd7-adcf-c72cf9620476",
+    "children": [
+        "5bb10f84-350e-491e-8e16-1f7a0abb3999",
+        "47ced051-e0c3-4fb8-b71f-f9f43c0cc93c",
+        "649355df-abca-4c0e-9c20-49910373b52f",
+        "670961bd-91b9-47d0-a486-86b2654b6da6",
+        "308f7b1d-bfd3-467f-9b04-4805ee348a42",
+        "d73b741e-e829-44ea-9414-ba682aecdf26",
+        "4210752c-0a1f-42be-affd-185d28e666c2",
+        "38980526-28d9-415e-9955-421a599f553d",
+        "60e36924-907a-4d5f-8ebe-231112bb418d",
+        "788d89ec-e99e-4a80-a59d-0b0750d0107e",
+        "053d82d3-3816-4af6-ba21-0cce269e77ed",
+        "1423b64e-85cf-4e0a-8ff3-a2fc73c9a3f8",
+        "202618fd-afa7-487c-bfca-010029bc3b62",
+        "1f39a3fa-83cf-4524-9750-d0c4817891ff",
+        "2a1a5d29-f924-4c41-b3c0-82acb841b4a4",
+        "697238c9-0a41-4beb-8cb0-c35335085116",
+        "b5a3d7ef-c93a-44c2-8cf7-258452a61c49",
+        "1fc00b55-3741-4ec4-ae1f-4564145abec0",
+        "e5bf3c00-2283-471b-9814-3d944d69a2f0",
+        "0b6784d4-6420-4a18-a5d0-cd5bc139ae05",
+        "c4b3d2b7-4725-423d-9e8d-c1465994c6ab"
+    ],
+    "filterType": "GMSprite",
+    "folderName": "Noses",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
