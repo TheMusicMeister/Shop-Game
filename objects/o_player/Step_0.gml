@@ -10,7 +10,7 @@ yspd = (iDown - iUp) * spd;
 
 if (xspd != 0)
 {
-	if (place_meeting (x + xspd, y + yspd, o_solid))
+	if (place_meeting (x + xspd, y, o_solid))
 	{
 		repeat (abs (xspd))
 		{
@@ -25,7 +25,7 @@ if (xspd != 0)
 
 if (yspd != 0)
 {
-	if (place_meeting (x + xspd, y + yspd, o_solid))
+	if (place_meeting (x, y + yspd, o_solid))
 	{
 		repeat (abs (yspd))
 		{

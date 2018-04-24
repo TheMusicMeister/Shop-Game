@@ -17,7 +17,8 @@
         "20c6da46-7d02-4112-a5e9-0de14033485a",
         "56aeb446-8315-43a6-932e-023505c2db1e",
         "007cccff-7e2e-47cd-aef2-2d38553f7426",
-        "31014c53-275c-43b4-b08e-9597370f6cc2"
+        "31014c53-275c-43b4-b08e-9597370f6cc2",
+        "54e2148f-d22e-4f7f-a8b9-eaf6d61233a3"
     ],
     "filterType": "GMSprite",
     "folderName": "Ears",

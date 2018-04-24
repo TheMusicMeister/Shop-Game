@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "54e2148f-d22e-4f7f-a8b9-eaf6d61233a3",
+            "Value": {
+                "id": "1c0e2f3d-ac06-4e99-a95e-7ad64d8bb121",
+                "resourcePath": "sprites\\s_g_ears_default\\s_g_ears_default.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56aeb446-8315-43a6-932e-023505c2db1e",
             "Value": {
                 "id": "914e7b19-ba20-4009-9d43-e3dbda70fb5e",
