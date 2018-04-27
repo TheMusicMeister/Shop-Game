@@ -8,6 +8,8 @@ iUp = keyboard_check(vk_up);
 xspd = (iRight - iLeft) * spd;
 yspd = (iDown - iUp) * spd;
 
+//////Movement and Collision Checking
+////Horizontal
 if (xspd != 0)
 {
 	if (place_meeting (x + xspd, y, o_solid))
@@ -23,6 +25,7 @@ if (xspd != 0)
 	}
 }
 
+////Vertical
 if (yspd != 0)
 {
 	if (place_meeting (x, y + yspd, o_solid))
@@ -40,3 +43,22 @@ if (yspd != 0)
 
 x += xspd;
 y += yspd;
+
+//////Character Customization
+////Gender
+if (keyboard_check_pressed(vk_numpad0))
+{
+	if (base_gender == 0)
+		base_gender = 1;
+	else
+		base_gender = 0;
+}
+
+////Skin Tone
+if (keyboard_check_pressed(vk_numpad1))
+{
+	if (base_skin < array_length_2d(s_base, base_gender) - 1)
+		base_skin++;
+	else
+		base_skin = 0;
+}

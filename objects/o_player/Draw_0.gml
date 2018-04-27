@@ -13,7 +13,7 @@ else if (yspd < 0) y_frame = 8;
 else if (yspd > 0) y_frame = 10;
 else			   x_frame = 0;
 
-draw_sprite_part(s_base, 0, frame_size * floor(x_frame), frame_size * y_frame, 64, 64, xx, yy);
+draw_sprite_part(s_base[base_gender,base_skin], 0, frame_size * floor(x_frame), frame_size * y_frame, 64, 64, xx, yy);
 draw_sprite_part(s_feet, 0, frame_size * floor(x_frame), frame_size * y_frame, 64, 64, xx, yy);
 draw_sprite_part(s_legs, 0, frame_size * floor(x_frame), frame_size * y_frame, 64, 64, xx, yy);
 draw_sprite_part(s_shirt, 0, frame_size * floor(x_frame), frame_size * y_frame, 64, 64, xx, yy);

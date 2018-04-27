@@ -12,7 +12,8 @@
         "48f1fb7a-d3da-44d9-84ed-de60cdc9f374",
         "52abfdd7-d098-4679-822e-3fa748a9a80f",
         "d6ad3079-e5ee-4558-9a9e-3891165c0b62",
-        "9135bca0-08b0-4825-b167-a1aa51fb72b2"
+        "9135bca0-08b0-4825-b167-a1aa51fb72b2",
+        "59ec9f4e-821f-44e3-b236-383a7b3a4978"
     ],
     "filterType": "GMSprite",
     "folderName": "Eyes",

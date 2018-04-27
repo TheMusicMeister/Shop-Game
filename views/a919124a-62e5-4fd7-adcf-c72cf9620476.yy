@@ -24,7 +24,8 @@
         "1fc00b55-3741-4ec4-ae1f-4564145abec0",
         "e5bf3c00-2283-471b-9814-3d944d69a2f0",
         "0b6784d4-6420-4a18-a5d0-cd5bc139ae05",
-        "c4b3d2b7-4725-423d-9e8d-c1465994c6ab"
+        "c4b3d2b7-4725-423d-9e8d-c1465994c6ab",
+        "a17411c6-f051-4478-b317-7ab20b86bde4"
     ],
     "filterType": "GMSprite",
     "folderName": "Noses",
