@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "3a053b35-19b1-4c4d-8274-48e83f93c9ae",
+            "Value": {
+                "id": "cd0b3238-842f-490a-9191-af5ad8bd881d",
+                "resourcePath": "sprites\\s_m_hair_loose_brown\\s_m_hair_loose_brown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a454353-6e60-41aa-92e8-cbd9f90f6512",
             "Value": {
                 "id": "d6362cfa-5cb2-4f4e-ab3c-24939b6a1c0b",
