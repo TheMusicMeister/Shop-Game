@@ -7,7 +7,8 @@
         "140e30b5-dbec-4d0c-a501-e9599d01d09b",
         "37110bde-306f-48f7-9fc8-a6dcd8c1ab4f",
         "610126b0-be87-4fb4-9b6d-15534299f6af",
-        "9a91fd2f-3a78-48e0-a2dd-ad9a26308e53"
+        "9a91fd2f-3a78-48e0-a2dd-ad9a26308e53",
+        "f3553c6e-4120-49b3-a593-a9ae03316a96"
     ],
     "filterType": "GMSprite",
     "folderName": "Female",

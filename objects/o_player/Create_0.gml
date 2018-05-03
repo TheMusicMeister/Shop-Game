@@ -6,13 +6,13 @@ x_frame = 0;
 y_frame = 11;
 x_offset = sprite_get_xoffset(mask_index);
 y_offset = sprite_get_yoffset(mask_index);
-//s_base = s_f_base_light;
+s_base = s_m_base_light;
 s_shirt = s_m_shirt_longsleeve_teal;
 s_legs = s_m_legs_pants_white;
 s_feet = s_m_feet_shoes_black;
 s_eyes = s_m_eyes_default;
 s_nose = s_m_nose_default;
-//s_ears = s_m_ears_elven_light;
+s_ears = s_m_ears_elven_light;
 s_hair = s_m_hair_bangs_brown;
 base_gender = 0;
 base_skin = 0;
@@ -29,7 +29,7 @@ eyes_option = 0;
 nose_option = 0;
 
 
-for (var i = 0; i < 2; i++)
+/*for (var i = 0; i < 2; i++)
 	for (var j = 0; j < 10; j++)
 		s_base[i,j] = s_player_mask;		//s_base[gender,skin_tone]
 for (var i = 0; i < 10; i++)
@@ -48,13 +48,13 @@ for (var i = 0; i < 10; i++)
 for (var i = 0; i < 1; i++)
 	for (var j = 0; j < 8; j++)
 	{
-		s_m_hair[i,j] = s_m_hair_bangs_brown;
+		s_m_hair[i,j] = s_m_hair_bangs_brown;	//s_m/f_hair[hair_type,hair_color]
 		s_f_hair[i,j] = s_f_hair_bangs_brown;
 	}
 for (var i = 0; i < 2; i++)
 	for (var j = 0; j < 4; j++)
 	{
-		s_m_shirt[i,j] = s_m_shirt_longsleeve_brown;
+		s_m_shirt[i,j] = s_m_shirt_longsleeve_brown;	//s_m/f_shirt[shirt_type,shirt_color]
 		s_f_shirt[i,j] = s_f_shirt_pirate_brown;
 	}
 

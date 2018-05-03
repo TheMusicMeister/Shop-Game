@@ -1,3 +1,4 @@
+if(room_get_name(room) == "r_default"){
 // ---- Movement
 
 iLeft = keyboard_check(vk_left);
@@ -61,4 +62,5 @@ if (keyboard_check_pressed(vk_numpad1))
 		base_skin++;
 	else
 		base_skin = 0;
+}
 }

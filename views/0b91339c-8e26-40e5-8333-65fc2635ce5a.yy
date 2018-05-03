@@ -7,7 +7,8 @@
         "448a4144-1800-409f-afb1-2ff5ae81910b",
         "88b3f4b5-802d-423d-ad83-21adc6cc8ade",
         "a919124a-62e5-4fd7-adcf-c72cf9620476",
-        "c12537be-1f96-43a0-bf7a-1b62818dcc4e"
+        "c12537be-1f96-43a0-bf7a-1b62818dcc4e",
+        "a15db02b-ca83-4a8c-b28b-36a5959a6536"
     ],
     "filterType": "GMSprite",
     "folderName": "Male",

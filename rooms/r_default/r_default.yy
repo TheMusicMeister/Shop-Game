@@ -1,8 +1,8 @@
 
 {
-    "name": "room0",
+    "name": "r_default",
     "id": "313e198c-53f3-4c20-b885-38c25e8b8471",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -132,7 +132,7 @@
         "Height": 768,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
-        "persistent": false,
+        "persistent": true,
         "mvc": "1.0",
         "Width": 1024
     },
