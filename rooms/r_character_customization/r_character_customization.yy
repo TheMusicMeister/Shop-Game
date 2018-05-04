@@ -2,7 +2,7 @@
 {
     "name": "r_character_customization",
     "id": "5e81a8b7-3071-4e48-819e-4b8774a370bb",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

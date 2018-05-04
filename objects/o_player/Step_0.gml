@@ -63,4 +63,6 @@ if (keyboard_check_pressed(vk_numpad1))
 	else
 		base_skin = 0;
 }
+
+depth = -y;
 }

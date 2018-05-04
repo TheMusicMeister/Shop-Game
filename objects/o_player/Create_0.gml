@@ -28,7 +28,7 @@ hair_color = 0;
 ears_option = 0;
 eyes_option = 0;
 nose_option = 0;
-
+depth = -y;
 
 /*for (var i = 0; i < 2; i++)
 	for (var j = 0; j < 10; j++)
