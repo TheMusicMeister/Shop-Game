@@ -1,1 +1,1 @@
-sprite_index = s_m_base_crop_skeleton;
+sprite_index = s_m_base_skeleton;

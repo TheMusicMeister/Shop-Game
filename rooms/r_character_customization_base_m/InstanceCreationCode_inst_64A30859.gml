@@ -1,1 +1,1 @@
-sprite_index = s_m_base_crop_light;
+sprite_index = s_m_base_light;

@@ -1,5 +1,8 @@
 /// @description Custom draw event
 // You can write your code in this editor
+draw_set_color (c_black);
+draw_text (x, y-30, sprite_get_name(s_base));
+
 var anim_length = 9;
 var frame_size = 64;
 var anim_speed = 12;
