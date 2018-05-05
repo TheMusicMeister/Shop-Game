@@ -46,7 +46,7 @@ else
 {
 	x_frame = 1;
 	if (room_get_name(room) != "r_default"){
-	y_frame += .12;
+	y_frame += .15;
 	if (y_frame >= 12)
 		y_frame = 8;
 	}
