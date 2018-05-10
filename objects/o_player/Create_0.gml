@@ -26,12 +26,24 @@ feet_color = 0;
 hair_option = 0;
 hair_color = 0;
 ears_option = 0;
-eyes_option = 0;
+eyes_color = 0;
 nose_option = 0;
+p_gender = "Male";
+p_skintone = "Light";
+p_ears = 0;
+p_eyes = 0;
+p_nose = 0;
+p_customize = "Skin Tone";
 depth = -y;
 
-var json = ds_map_create();
-var layer2 = ds_map_create();
+global.filename = file_text_open_read(working_directory + "customization.json");
+//customization = ds_map_create();
+customization = json_decode(file_text_read_string(global.filename));
+file_text_close(global.filename);
+
+//show_message(string(ds_map_find_first(customization)));
+
+/*var layer2 = ds_map_create();
 var list = ds_list_create();
 ds_list_add(list, "test1", "test2");
 ds_map_add(layer2, "test1", "value1");

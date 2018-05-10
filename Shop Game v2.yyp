@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "28a92135-8b0c-49ec-9dd4-577124dbe16c",
+            "Value": {
+                "id": "7e8a611c-d3e7-4a09-99fc-4448f78a964d",
+                "resourcePath": "scripts\\ds_nested_get\\ds_nested_get.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "290bf7fe-24e7-4fec-8570-b9b1df057cc7",
             "Value": {
                 "id": "944366af-5f97-4f03-9c77-ea86cfddb458",
@@ -1928,7 +1936,7 @@
         }
     ],
     "script_order": [
-        
+        "28a92135-8b0c-49ec-9dd4-577124dbe16c"
     ],
     "tutorial": ""
 }
