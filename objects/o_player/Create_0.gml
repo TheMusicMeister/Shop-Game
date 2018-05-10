@@ -31,12 +31,21 @@ nose_option = 0;
 depth = -y;
 
 var json = ds_map_create();
+var layer2 = ds_map_create();
 var list = ds_list_create();
 ds_list_add(list, "test1", "test2");
+ds_map_add(layer2, "test1", "value1");
 ds_map_add_list(json, "list", list);
-global.filename = file_text_open_write("C:\Users\Abby2\Documents\Temp Files\Stuff\Shop-Game\testfile.txt");
+ds_map_add_map(json, "maplayer", layer2);
+global.filename = file_text_open_write(working_directory + "testfile.txt");
 if (global.filename > -1)
 	show_message ("File created!");
 else
 	show_message ("File creation error!");
 file_text_write_string(global.filename, json_encode(json));
+
+var customize_list = ds_map_create();
+
+/*{ "Male":	{	"Skin":	[dark, light, orc, etc]
+				"Hair": [wavy, long, short, bangs, etc]
+				"Etc": [etc]	}
