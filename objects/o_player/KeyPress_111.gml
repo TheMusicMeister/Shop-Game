@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-global.filename = file_text_open_write(working_directory + "testfile.txt");
-file_text_write_string(global.filename,json_encode(customization));
-file_text_close(global.filename);
+p_skintone = ds_map_find_next(ds_nested_get(customization, p_gender, "Skin Tone"), p_skintone);
+if(is_undefined(p_skintone))
+	p_skintone = ds_map_find_first(ds_nested_get(customization, p_gender, "Skin Tone"));
