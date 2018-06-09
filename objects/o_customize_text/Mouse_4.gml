@@ -14,6 +14,13 @@ if(me == "Face")
 		obj2 = instance_create_depth(x,y+64,0,o_right_arrow);
 		obj2.me = "Nose";
 	}
+if(me == "Hair" || me == "Chest" || me == "Legs" || me == "Feet")
+	with(obj)
+	{
+		y -= 32;
+		var obj2 = instance_create_depth(x,y+64,0,o_right_arrow);
+		obj2.me = me + " Color";
+	}
 
 obj = instance_create_depth(o_player.x - o_player.x_offset - 64, o_player.y - o_player.y_offset, 0, o_left_arrow);
 obj.me = me;
@@ -25,6 +32,13 @@ if(me == "Face")
 		obj2.me = "Eyes";
 		obj2 = instance_create_depth(x,y+64,0,o_left_arrow);
 		obj2.me = "Nose";
+	}
+if(me == "Hair" || me == "Chest" || me == "Legs" || me == "Feet")
+	with(obj)
+	{
+		y -= 32;
+		var obj2 = instance_create_depth(x,y+64,0,o_left_arrow);
+		obj2.me = me + " Color";
 	}
 
 instance_create_depth(512, 480, 0, o_customize_back);

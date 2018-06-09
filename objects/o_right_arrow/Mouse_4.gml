@@ -47,3 +47,121 @@ else if (me == "Nose")
 		ds_list_destroy(map);
 	}
 }
+else if (me == "Gender")
+{
+	with(o_player)
+	{
+		if(p_gender == "Male")
+			p_gender = "Female";
+		else
+			p_gender = "Male";
+		hair_option = 0;
+		hair_color = 0;
+		shirt_option = 0;
+		shirt_color = 0;
+		legs_option = 0;
+		legs_color = 0;
+		feet_option = 0;
+		feet_color = 0;
+	}
+}
+else if (me == "Hair")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Hair");
+		if (hair_option < ds_list_size(map) - 1)
+			hair_option++;
+		else
+			hair_option = 0;
+		ds_list_destroy(map);
+		hair_color = 0;
+	}
+}
+else if (me == "Hair Color")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Hair", hair_option);
+		if (hair_color < ds_list_size(map) - 1)
+			hair_color++;
+		else
+			hair_color = 0;
+		ds_list_destroy(map);
+	}
+}
+else if (me == "Chest")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Chest");
+		if (shirt_option < ds_list_size(map) - 1)
+			shirt_option++;
+		else
+			shirt_option = 0;
+		ds_list_destroy(map);
+		shirt_color = 0;
+	}
+}
+else if (me == "Chest Color")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Chest", shirt_option);
+		if (shirt_color < ds_list_size(map) - 1)
+			shirt_color++;
+		else
+			shirt_color = 0;
+		ds_list_destroy(map);
+	}
+}
+else if (me == "Legs")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Legs");
+		if (legs_option < ds_list_size(map) - 1)
+			legs_option++;
+		else
+			legs_option = 0;
+		ds_list_destroy(map);
+		legs_color = 0;
+	}
+}
+else if (me == "Legs Color")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Legs", legs_option);
+		if (legs_color < ds_list_size(map) - 1)
+			legs_color++;
+		else
+			legs_color = 0;
+		ds_list_destroy(map);
+	}
+}
+else if (me == "Feet")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Feet");
+		if (feet_option < ds_list_size(map) - 1)
+			feet_option++;
+		else
+			feet_option = 0;
+		ds_list_destroy(map);
+		feet_color = 0;
+	}
+}
+else if (me == "Feet Color")
+{
+	with(o_player)
+	{
+		var map = ds_nested_get(customization, p_gender, "Feet", feet_option);
+		if (feet_color < ds_list_size(map) - 1)
+			feet_color++;
+		else
+			feet_color = 0;
+		ds_list_destroy(map);
+	}
+}
