@@ -12,7 +12,10 @@
         "f272ac8a-67e9-4c34-8d5c-d618b0569348",
         "38e70c47-5ac9-4842-99b0-0436ffd56a43",
         "cf73be96-1bf4-44fc-8783-90c87a1b7372",
-        "60aa1a59-2ee6-414b-9bde-c61af9187e87"
+        "60aa1a59-2ee6-414b-9bde-c61af9187e87",
+        "0e144726-5822-4f9f-be69-86d6597475a2",
+        "38fab583-0a74-4cb2-9209-4c77651ca568",
+        "d8212501-fb1d-4a98-b6b9-1250e234b381"
     ],
     "filterType": "GMSprite",
     "folderName": "Character Customization Buttons",

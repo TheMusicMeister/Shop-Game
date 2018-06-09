@@ -18,6 +18,11 @@ else if (yspd > 0) y_frame = 10;
 else			   x_frame = 0;
 }
 
+global.filename = file_text_open_read(working_directory + "customization.json");
+//customization = ds_map_create();
+customization = json_decode(file_text_read_string(global.filename));
+file_text_close(global.filename);
+
 if (draw){
 draw_sprite_part(asset_get_index(ds_nested_get(customization, p_gender, "Skin Tone", p_skintone, "Base")), 0, frame_size * floor(x_frame), frame_size * floor(y_frame), 64, 64, xx, yy);
 draw_sprite_part(asset_get_index(ds_nested_get(customization, p_gender, "Feet", feet_option, feet_color)), 0, frame_size * floor(x_frame), frame_size * floor(y_frame), 64, 64, xx, yy);

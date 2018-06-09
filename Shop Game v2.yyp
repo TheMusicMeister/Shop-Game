@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0e144726-5822-4f9f-be69-86d6597475a2",
+            "Value": {
+                "id": "86b4498e-8960-40eb-b225-5adf755ae1d2",
+                "resourcePath": "sprites\\s_gender\\s_gender.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fbf8cd5-a2a7-43b3-b14b-3a02c7da4736",
             "Value": {
                 "id": "59c8744a-3810-4c5f-9974-8d8777e3d44b",
@@ -483,6 +491,14 @@
             "Value": {
                 "id": "856b05cb-6cda-4ab4-898b-8a1d72017044",
                 "resourcePath": "sprites\\s_back\\s_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "38fab583-0a74-4cb2-9209-4c77651ca568",
+            "Value": {
+                "id": "840e72c2-f005-4ad2-a34f-f055c50678f7",
+                "resourcePath": "sprites\\s_female\\s_female.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1779,6 +1795,14 @@
             "Value": {
                 "id": "da9a8eeb-6ad4-41f3-b997-e78475297133",
                 "resourcePath": "sprites\\s_m_nose_big_tanned\\s_m_nose_big_tanned.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d8212501-fb1d-4a98-b6b9-1250e234b381",
+            "Value": {
+                "id": "144afbb8-1a87-4557-9695-b4f29f284fe5",
+                "resourcePath": "sprites\\s_male\\s_male.yy",
                 "resourceType": "GMSprite"
             }
         },

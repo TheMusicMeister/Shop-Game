@@ -8,6 +8,7 @@ if (me == "Skin Tone")
 		p_skintone = ds_map_find_next(map, p_skintone);
 		if(is_undefined(p_skintone))
 			p_skintone = ds_map_find_first(map);
+		ds_map_destroy(map);
 	}
 }
 else if (me == "Face")
@@ -19,6 +20,7 @@ else if (me == "Face")
 			ears_option++;
 		else
 			ears_option = 0;
+		ds_list_destroy(map);
 	}
 }
 else if (me == "Eyes")
@@ -30,6 +32,7 @@ else if (me == "Eyes")
 			eyes_color++;
 		else
 			eyes_color = 0;
+		ds_list_destroy(map);
 	}
 }
 else if (me == "Nose")
@@ -41,5 +44,6 @@ else if (me == "Nose")
 			nose_option++;
 		else
 			nose_option = 0;
+		ds_list_destroy(map);
 	}
 }
